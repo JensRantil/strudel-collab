@@ -6,4 +6,4 @@ $: note("~ e4").sound("piano").slow(4).delay(0.6).room(4)
 
 $: sound("<Cowbell Cowbell Cowbell - >*32")
 $: sound("< -  conga:4 - conga:1 - conga:2 conga:1> * 32").gain(2)
-$: sound("<sh sh> *16")
+$: sound("<- sh - sh -> *32")
