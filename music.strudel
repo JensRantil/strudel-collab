@@ -1,8 +1,11 @@
 setcps(0.2)
 
-$: note("e1!3 ~ ~ e1 g1 e1 a1!3 ~ ~ b1 a1 g1").sound("gm_electric_bass_finger")
-.delay(0.2).room(1)
+$: note("e1!3 ~!2 e1 g1 e1 a1!3 ~!2 b1 a1 g1").sound("gm_electric_bass_finger").delay(0.2).room(1)
 $: note("~ e4").sound("piano").slow(4).delay(0.6).room(4)
+
+$: note("~!3 [b a g a g f# g f# e f# e d e@2 e@2]").sound("gm_kalimba").slow(2)
+$: note("b4 g4 a4 e4").sound("gm_kalimba")
+$: note("e4@2 ~ [~ e4] b4@2 ~ [~ b4]").slow(2).sound("gm_oboe").gain(0.1).room(2)
 
 $: sound("<Cowbell Cowbell Cowbell - >*32")
 $: sound("< -  conga:4 - conga:1 - conga:2 conga:1> * 32").gain(2)
